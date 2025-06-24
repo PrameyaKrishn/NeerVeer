@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Stats Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts for a modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo">
+                <i class="fa-solid fa-leaf"></i>
+                <span>NeerVeer Farm</span>
+            </div>
+            <div class="profile">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile Picture" class="profile-pic">
+                <span class="username">Prameya</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1><i class="fa-solid fa-chart-line"></i> Farm Statistics</h1>
+        <div class="stats-container">
+            <div class="stat">
+                <div class="stat-icon water"><i class="fa-solid fa-tint"></i></div>
+                <h2>Water Level</h2>
+                <p id="water-level">Loading...</p>
+            </div>
+            <div class="stat">
+                <div class="stat-icon date"><i class="fa-solid fa-calendar-day"></i></div>
+                <h2>Date</h2>
+                <p id="date">Loading...</p>
+            </div>
+            <div class="stat">
+                <div class="stat-icon temp"><i class="fa-solid fa-temperature-high"></i></div>
+                <h2>Temperature</h2>
+                <p id="temperature">Loading...</p>
+            </div>
+            <div class="stat">
+                <div class="stat-icon weather"><i class="fa-solid fa-cloud-sun"></i></div>
+                <h2>Expected Weather</h2>
+                <p id="weather">Loading...</p>
+            </div>
+            <div class="stat">
+                <div class="stat-icon moisture"><i class="fa-solid fa-water"></i></div>
+                <h2>Soil Moisture</h2>
+                <p id="soil-moisture">Loading...</p>
+            </div>
+            <div class="stat">
+                <div class="stat-icon ph"><i class="fa-solid fa-vial"></i></div>
+                <h2>Soil pH</h2>
+                <p id="soil-ph">Loading...</p>
+            </div>
+            <div class="stat">
+                <div class="stat-icon alert"><i class="fa-solid fa-bell"></i></div>
+                <h2>Alerts</h2>
+                <p id="alerts">Loading...</p>
+            </div>
+            <div class="stat">
+                <div class="stat-icon soil-temp"><i class="fa-solid fa-thermometer-half"></i></div>
+                <h2>Soil Temperature</h2>
+                <p id="soil-temperature">Loading...</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 NeerVeer Farm. All rights reserved.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
